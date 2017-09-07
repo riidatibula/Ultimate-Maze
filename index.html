@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ultimate Maze</title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+	<style type="text/css">
+		body{
+			background-color: rgb(23,32,42);
+			font-family: 'Orbitron', sans-serif;
+		}
+		.container{
+			text-align: center;
+			border: 1px solid white;
+			margin-left:auto; 
+			margin-right:auto;
+			max-width: 900px;
+			max-height: 600px;
+			border-radius: 0.4em;
+			margin-top: 120px;
+		}
+		.button{
+			color: white;
+			background-color: #0B5345;
+			padding: 8px;
+			font-size: 1.2em;
+			width: 250px;
+			font-family: 'Orbitron', sans-serif;
+			margin-bottom: 20px;
+		}
+		.button:hover{
+			color: black;
+			background-color: #138D75;
+			transform: scale(1.1);
+		}
+		.title{
+			color: white;
+			font-size: 3.5em;
+		}
+		.help_btn{
+			margin-bottom: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p class="title">Ultimate Maze</p>
+		<form action="game.html">
+		   <input type="submit" value="Play game" class="button play"/>
+		</form>
+		<form action="help.html">
+		   <input type="submit" value="Help" class="button help_btn"/>
+		</form>
+	</div>
+</body>
+</html>
